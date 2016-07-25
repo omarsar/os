@@ -1,6 +1,6 @@
 ### :point_right: About
 
-A useful handbook for getting to know the basics on Operating System Concepts. I am preparing this handbook as a study guide for my PhD qualification exams, but it can be used for any educational purposes. Feel free to make pull requests as there might be plenty of grammatical and spelling errors in the content. I will try to update it as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). Who knows, perhaps it might become an actual book. I am definitely giving credits for any contributions. 
+A useful handbook for getting to know the basics on **Operating System Concepts**. I am preparing this handbook as a study guide for my PhD qualification exams, but it can be used for educational purposes. Feel free to make pull requests as there might be plenty of grammatical errors, spelling errors and even inconsistencies in the content. I will try to update it as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). Who knows, perhaps it might even become an actual book. It is tough doing this along, so I am definitely giving credits for any contributions. 
 
 ### :point_right: Table of Content
 
