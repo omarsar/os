@@ -9,7 +9,7 @@ A useful handbook for getting to know the basics on **Operating System Concepts*
 - Chapter 3 - [Process Management (Distributed Environment)](https://github.com/omarsar/os/blob/master/3.%20Process%20Managment%20(Disitributed%20Environment).md)
 - Chapter 4 - [Concurrent Processing](https://github.com/omarsar/os/blob/master/4.%20Concurrent%20Processing.md)
 - Chapter 5 - [Critical Section Problem](https://github.com/omarsar/os/blob/master/5.%20Critical%20Section%20Problem.md)
-- Chapter 6 - [Deadlock Problem]()
+- Chapter 6 - [Deadlock Problem](https://github.com/omarsar/os/blob/master/6.%20Deadlock.md)
 
 ### :point_right: TODO List
 - Add examples through images. 
