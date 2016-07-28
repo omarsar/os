@@ -13,7 +13,7 @@ A useful handbook for getting to know the basics on **Operating System Concepts*
 - Chapter 6 - [Deadlock - Part 2 (Algorithms)](https://github.com/omarsar/os/blob/master/6.%20Deadlock%20-%20Part%202%20(Algorithms).md)
 - Chapter 6 - [Deadlock - Part 3 (Distributed Environment)](https://github.com/omarsar/os/blob/master/6.%20Deadlock%20-%20Part%203%20(Distributed%20Environment).md)
 - Chapter 7 - [Memory Management](https://github.com/omarsar/os/blob/master/7.%20Memory%20Management.md)
-- Chapter 8 - [Cache Memory]()
+- Chapter 8 - [Cache Memory](https://github.com/omarsar/os/blob/master/8.%20Cache%20Memory.md)
 
 ### :point_right: TODO List
 - Add examples through images. 
