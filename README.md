@@ -16,6 +16,7 @@ A useful handbook for getting to know the basics on **Operating System Concepts*
 - Chapter 8 - [Cache Memory](https://github.com/omarsar/os/blob/master/8.%20Cache%20Memory.md)
 - Chapter 9 - [Secondary Storage](https://github.com/omarsar/os/blob/master/9.%20Secondary%20Storage.md)
 - Chapter 10 - [Buffer Cache](https://github.com/omarsar/os/blob/master/10.%20Buffer%20Cache.md)
+- Chapter 11 - [File Representation]()
 
 ### :point_right: TODO List
 - Add examples through images. 
