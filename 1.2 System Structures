@@ -1,0 +1,75 @@
+## Chapter 1.2: System Structures
+
+- Functionalities of the Operating System for a user:
+	+ User Interface
+	+ Program Execution
+	+ I/O operations
+	+ File-system manipulation
+	+ Communications
+	+ Error Detection
+
+- Functionalities of the Operating System for efficient operation:
+	+ Resource Allocation
+	+ Accounting
+	+ Protection and Security
+
+- User Interfaces:
+	+ Command Line Interface (CLI)
+	+ Batch interface - files with a batch of executable commands
+	+ Graphical User Interface (GUI)
+
+- > System calls provide an interface to the services made available by an operating system.
+
+- An example of a **system call** is when copying and generating a new file.
+
+- System calls can be  grouped intro six major categories: process control, file manipulation, device manipulation, information maintenance, communications, and protection.
+
+- Examples of system calls available in process control:
+	+ `fork` - starts a new process
+	+ `exec` - loads program into memory 
+	+ `exit` - terminate process and return status code
+
+- Examples of system calls available in file management: `create`, `delete`, `read`, `write`, `reposition`, `close`, `get_file_attributes`, and `set_file_attributes`. 
+
+- Examples of system calls available for device management:	`request`, `release`, `read`, `write`, and `reposition`. 
+
+- I/O devise and files include very similar operations that are they are sometimes combined into one file - devise structure. 
+
+- Examples of system calls available for information maintenance: `time`, `date`, `dump`, `get_process_attributes`, and `set_process_attributes`.
+
+- Examples of system calls available for communication: `get_hostid`, `get_processid`, `open_connection`, `close_connection`, `accept_connection`, `wait_for_connection`, `read_messages`, `write_messages`, `close_connection`, `shared_memory_create`, and `shared_memory_attach`.
+
+- Two models of interprocess communication
+	+ message-passing model - communication processes exchange messages with one another to transfer information
+	+ shared-memory model - processes exchange information by reading and writing data in the shared areas of memory. OS does not interfere with this communication and the processes are responsible to avoid writing in the same sectors of memory. 
+
+- message passing is great for smaller amounts of memory and intercomputer communication. Whereas shared memory is great because of memory speed available. Shared memory also has problem with protection and synchronization of memory access.
+
+
+- **Protection** provides a mechanism for controlling access to the resources.
+
+- Examples of system calls available for protection: `get_permission`, `set_permission`, `allow_user`, and `deny_user`.
+
+
+- **System programs** lie between operating system and application programs. They sometimes represent interface to system calls. 
+
+- Categories of system programs:
+	+ File Management
+	+ Status information
+	+ File modification
+	+ Programming-language support
+	+ Program loading and execution
+	+ Communications
+	+ Background Services (daemons)
+
+- Principle for designing operating systems:
+	+ mechanisms - how to do something 
+	+ policies - what will be done
+
+- Example of policy and mechanism: timer construct is a mechanism for ensuring CPU protection, but deciding how long the timer is to be set for a user is a policy decision.
+
+- Routines for performance: interrupt handler, I/O manager, memory manager, and CPU scheduler.
+
+- Operating system structures/designs: layered approach, microkernels, and modules.
+
+- > On more computer systems, a small piece of code known as the **boostrap program** or **boostrap loader** located the kernel, loads into main memory, and starts its execution. 
