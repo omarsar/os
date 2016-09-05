@@ -1,0 +1,44 @@
+## Chapter 2.1: Multithreaded Programming (MP)
+
+- Benefits of multithreaded programming
+	+ Responsiveness - user experience improved
+	+ Resource Sharing - share of code and data
+	+ Economy - no need to create process all over again
+	+ Scalability - can take advantage of multiprocessor environment
+
+- > MP provides a mechanism for more efficient use of these multiple computing cores and improved concurrency
+
+
+- In multicore environment threads can run in parallel.
+
+- > A system is parallel if it can perform more than one task simultaneously. In contrast, a concurrent system supports more than one task by allowing all tasks to make progress. Thus, it is possible to have concurrency without parallelism.
+
+
+- Areas of challenge when programming for multicore systems:	+ Identifying tasks - tasks that can run independent of one another
+	+ Balance -  tasks should perform equal work for efficient use of cores
+	+ Data splitting - 
+	+ Data dependency
+	+ Testing and debugging
+
+- Two type of parallelism: data parallelism and task parallelism
+
+- Two type of threads: user threads and kernel threads
+
+- Many to one model (many user threads to one kernel threads); doesn't take advantage of multiple processing cores; multiple threads are unable to run in parallel.
+
+
+- One to one model (one user thread to one kernel thread); overhead in the creation of kernel thread; support parallelism
+
+- Many to many mode (developers can create as many user threads as necessary, and the corresponding kernel threads can run in parallel)
+
+- Synchronous threading - occurs when the parent thread creates one or more children and then must wait for all its children to terminate before it resumes - fork-join strategy; lots of data sharing.
+
+- Asynchronous threading - once the parent creates a child thread, the parent resumes execution, so that the parent and child can execute concurrently; little data sharing
+
+- **Immutable** - once value it set, it cannot be changed.
+
+- Implicit threading - creating and managing thread is transfered from developer to compilers and run-time libraries.
+
+- Three type of implicit threading: 
+	+ Thread pools - dealing with problem of unlimited threads (these can exhaust system resources, such as CPU time or memory); it entails creating multiple threads on process startup which are to be used when a request is made; avoids waiting for new threads to be created; limits the amount of threads created;
+
