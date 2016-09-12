@@ -31,5 +31,20 @@
 - Redundancy arrays of independent disks (RAID) - setting up disk in parallel to improve performance (higher data-transfer rate) and reliability; 
     + Improving reliability via Redundancy -
         * Mirroring - a logical disk consists of two physical disks and every write is carried out on both disks (mirrored volume); rate of failure is reduced because there is a low probability that both disks will fail at the same time (this also depends on the time it take to repair a disk);
-        * 
+    + Improve in Performance via Parallelism - Data stripping or bit level stripping (consist of splitting the bits of each byte across multiple disks); every disk participates in every access, so the number of accesses that can be processed per second is about the same as on a single disk, but each access can read eight times as many data in the same time as on a single disk; block-level stripping (in blocks); this increases throughput
 
+- Mirroring provides high reliability, but it is expensive. Stripping provides high data transfer rate, but it does not improve reliability.
+
+
+- Raid Levels - different levels to provide redundancy at lower cost by using disk stripping combined with "parity" bits
+    + RAID level 0 - disk arrays with stripping but no redundancy
+    + RAID level 1 - disk mirroring
+    + RAID level 2 - uses ECC to detect corrupted data; data is stored in disk using stripping; further disk then hold error-correction bits; if one disk fail the remaining bytes stored in the other disks and the associated error-correction bits can be read from other disks to reconstruct the damaged data; three disk overhead
+    + RAID level 3 - one disk overhead, less disk require; parity bits of sectors are computed and compared to  to see if data has been lost of corrupted; uses bit stripping
+    + RAID level 4 - uses block stripping; one parity disk
+    + RAID level 5 - data and parity bits are distributed among disks; a parity block cannot store parity for blocks in the same disk, because a disk failure would result in loss of data as well as of parity, and hence loss would not be recoverable; avoid overuse of a single parity disk
+    + RAId level 6 - almost like level 5 but also uses redundancy to guard against multiple disk failures; error correcting code is used;
+    + RAID level 0 + 1 and 1 + 0 - 
+        * RAID 0 + 1 combines the idea of RAID level 0 and RAID level 1 to increase performance and reliability; it also requires more disks; if a single disk fails then one entire strip is lost; disks are stripped then mirrored;  
+        * RAID level 1 + 0 - first disks are mirrored then stripped; if one disk fails then other mirror is still available for restoring.
+        
