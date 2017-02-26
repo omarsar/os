@@ -1,6 +1,6 @@
 ### :point_right: About
 
-This is a friendly handbook that is useful for familiarizing with the basics of **Operating System Concepts**. I am preparing this handbook as part of ["The Bit Series"](http://elvissaravia.com/books/). Read more about our manifesto [here](http://elvissaravia.com/books/). Also, feel free to submit pull requests as there might be plenty of grammatical errors, spelling errors, and even inconsistencies in the content. I will try to update it as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). It is tough doing this alone, so I am definitely awarding credits for any contributions. 
+This is a friendly handbook which is useful for familiarizing yourself with the basics of **Operating System Concepts**. I am preparing this handbook as part of ["The Bit Series"](http://elvissaravia.com/books/). Read more about our manifesto [here](http://elvissaravia.com/books/). Also, feel free to submit pull requests as there might be plenty of grammatical errors, spelling errors, and even inconsistencies in the content. I will try to update the book as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). It is tough doing this alone, so I am definitely crediting anyone for their contributions. 
 
 ### :point_right: Table of Content
 
@@ -18,6 +18,9 @@ This is a friendly handbook that is useful for familiarizing with the basics of 
 - Chapter 10 - [Buffer Cache](https://github.com/omarsar/os/blob/master/10.%20Buffer%20Cache.md)
 - Chapter 11 - [File Representation](https://github.com/omarsar/os/blob/master/11.%20File%20Representation.md)
 
+### :point_right: Status
+- Draft stage
+
 ### :point_right: TODO List
 - Add examples through images. 
 - Add proper tables and fix code segments
@@ -26,6 +29,9 @@ This is a friendly handbook that is useful for familiarizing with the basics of 
 - [Elvis Saravia](http://elvissaravia.com)
 - Email: ellfae@gmail.com
 
-### :point_right: Potential Book Cover
+### :point_right: Potential book cover
 ![alt-text-1](https://github.com/omarsar/omarsar.github.io/blob/master/images/os.png?raw=true)
 
+### :point_right: More from "The Bit Series"
+![alt-text-2](https://github.com/omarsar/omarsar.github.io/blob/master/images/machine-learning.png?raw=true)
+[Machine Learning: A Friendly Handbook]
