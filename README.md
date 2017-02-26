@@ -26,6 +26,6 @@ This is a friendly handbook that is useful for familiarizing with the basics of 
 - [Elvis Saravia](http://elvissaravia.com)
 - Email: ellfae@gmail.com
 
-### :poing_right: Potential Book Cover
+### :point_right: Potential Book Cover
 ![alt-text-1](https://github.com/omarsar/omarsar.github.io/blob/master/images/os.png?raw=true)
 
