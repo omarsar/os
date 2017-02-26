@@ -37,6 +37,7 @@
 
 - The purpose of the device driver layer is to hide the differences among device controllers from the I/O subsystem of the kernel; this provides the creator of new devices to write device drivers for the OS to support their devices or design devices that are compatible with an existing host controller interface (such as SATA)
 
+- Several services - scheduling, buffering, caching, spooling, device reservation, and error handling -- are provided by the kernel I/O subsystem and build on the hardware and device-driver infrastructure.
 
 - buffer are areas of memory set aside for dealing with data transfer decoupling and data transfer size between devices or between a device and an application. also used for copy semantics (making sure that the data provided by the application is always the latest version); another way to achieve this is to copy the application buffer to the kernel buffer so that the disk write is performed from the kernel buffer.
 
@@ -45,5 +46,24 @@
 -  a spool is a buffer that holds output for a device, such as a printer, that cannot accept interleaved data streams.
 
 
+- Protected memory can avoid complete system malfunction. Network problems can be dealt with resubmitting system calls by the operating system. Permanent reasons (such as when device controllers become defective) are not recoverable by the OS.
 
+- Error handling - a bit of information (errno), in form of an integer, is returned by the system call
+
+- I/O protection - Instead of having users perform direct I/O, the request must go through the OS by means of a system call; memory protection also protect any memory-mapped and I/O port memory locations from user access. in case of memory-mapped graphics controller, for example, the kernel provides locking mechanism to protect overload on the device.
+
+- In summary, the I/O subsystem coordinates a collection of services that are available to applications and to other parts of the kernel. The I/O subsystem supervises these procedures:
+	+ management of the name space for files and devices
+	+ access control to files and devices
+	+ operation control
+	+ file-system space allocation
+	+ device allocation
+	+ buffering, caching, and spooling
+	+ I/O scheduling
+	+ device-status monitoring, error handling, and failure recovery
+	+ device-driver configuration and initialization
+
+- The upper levels of the I/O subsystem access devices via the uniform interface provided by the device drivers.
+
+- The device name also has the form of a name in the file-system name space. When UNIX looks up this name in the file-system directory structures, it finds not a <major,minor> device number. The major device number identifies a device driver that should be called to handle the I/O to this device. The minor device number is passed to the device driver to index into a device table. The corresponding device-table entry gives the port address or the memory-mapped address of the device controller.
 
