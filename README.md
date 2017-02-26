@@ -34,4 +34,5 @@ This is a friendly handbook which is useful for familiarizing yourself with the 
 
 ### :point_right: More from "The Bit Series"
 ![alt-text-2](https://github.com/omarsar/omarsar.github.io/blob/master/images/machine-learning.png?raw=true)
-[Machine Learning: A Friendly Handbook]
+
+- [Machine Learning: A Friendly Handbook](https://github.com/omarsar/machine_learning_fundamentals)
