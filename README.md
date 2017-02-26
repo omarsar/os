@@ -1,6 +1,6 @@
 ### :point_right: About
 
-This is a friendly handbook that is useful for familiarizing with the basics of **Operating System Concepts**. I am preparing this handbook as part of ["The Bit Series"](http://elvissaravia.com/books/). Read more about our manifesto [here](http://elvissaravia.com/books/). Also, feel free to submit pull requests as there might be plenty of grammatical errors, spelling errors, and even inconsistencies in the content. I will try to update it as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). It is tough doing this alone, so I am definitely giving credits for any contributions. 
+This is a friendly handbook that is useful for familiarizing with the basics of **Operating System Concepts**. I am preparing this handbook as part of ["The Bit Series"](http://elvissaravia.com/books/). Read more about our manifesto [here](http://elvissaravia.com/books/). Also, feel free to submit pull requests as there might be plenty of grammatical errors, spelling errors, and even inconsistencies in the content. I will try to update it as frequently as possible. I am also keeping a log of my continuous updates [here](https://github.com/omarsar/os/blob/master/log.md). It is tough doing this alone, so I am definitely awarding credits for any contributions. 
 
 ### :point_right: Table of Content
 
@@ -24,4 +24,8 @@ This is a friendly handbook that is useful for familiarizing with the basics of 
 
 ### :point_right: Contributor
 - [Elvis Saravia](http://elvissaravia.com)
+- Email: ellfae@gmail.com
+
+### :poing_right: Potential Book Cover
+![alt-text-1](https://github.com/omarsar/omarsar.github.io/blob/master/images/os.png?raw=true)
 
